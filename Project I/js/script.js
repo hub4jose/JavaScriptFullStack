@@ -25,7 +25,7 @@ setInterval(printQuote,7000);
 // when user clicks anywhere on the button, the "printQuote" function is called
 function printQuote(){
 // calls and stores random number
-  var ramdomPick = parseInt(getRandomQuote());
+  var ramdomPick = getRandomQuote();
 
   //changes background color
   document.body.style.background = "RGB(" + getRandomColor() + "," + getRandomColor() + "," + getRandomColor() + ")";
@@ -35,19 +35,19 @@ function printQuote(){
   //variable to hold the year of a quote if available
   var htmlYear = "";
 // constructs  span element if citation property is present in the object
-  if(quotes[ramdomPick].citation != "") {
-    htmlCitation = '<span class="citation">' +  quotes[ramdomPick].citation + '</span>';
+  if(ramdomPick.citation != "") {
+    htmlCitation = '<span class="citation">' +  ramdomPick.citation + '</span>';
   }
 
   // constructs span element if year property is present in the object
- if(quotes[ramdomPick].year != "") {
-        htmlYear = '<span class="year">' +  quotes[ramdomPick].year + '</span>';
+ if(ramdomPick.year != "") {
+        htmlYear = '<span class="year">' +  ramdomPick.year + '</span>';
   }
 
 // variable to construct the html code required inside of div element
   var html =
-  '<p class="quote">' + quotes[ramdomPick].quote +  '</p>' +
-  '<p class="source">' + quotes[ramdomPick].source +
+  '<p class="quote">' + ramdomPick.quote +  '</p>' +
+  '<p class="source">' + ramdomPick.source +
     htmlCitation +
     htmlYear +
   '</p>';
@@ -57,9 +57,9 @@ function printQuote(){
 
 }
 
-// function generates random number between 0 to 4 as we have only 5 quotes to pick in the quotes Array
+// function generates random quotes
 function getRandomQuote(){
-return Math.floor(Math.random() * 5);
+return quotes[Math.floor(Math.random() * quotes.length)];
 
 }
 // generates random numbers for the rgb color
