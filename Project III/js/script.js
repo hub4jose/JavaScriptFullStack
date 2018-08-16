@@ -14,6 +14,7 @@
   const noTheme = document.createElement('option');
   noTheme.textContent = "Please select a T-Shirt theme";
   c.appendChild(noTheme);
+
 // function Hides all color options until Tshirt theme is selected
   selectTheme();
 //function to hide Color label and input textbox
@@ -44,13 +45,14 @@
      let e = document.getElementById("title");
 
 //Other input textbox created if Other title is selected
-    let inputOther =   document.createElement('input');
+/*    let inputOther =   document.createElement('input');
     inputOther.type = "text";
     inputOther.id = "other-title";
     inputOther.placeholder = "Your Job Role";
     inputOther.style.display = "none";
+    e.parentNode.appendChild(inputOther);   */
 
-    e.parentNode.appendChild(inputOther);
+      document.getElementById('other-title').style.display = "none";
 
 //title dropbox event to show or hide Other textbox
     e.addEventListener('change',()=>{
@@ -68,7 +70,7 @@
 
 //Event to change Color option as per Theme is selected for T-shirt
     d.addEventListener('change',()=>{
-      c.options.selectedIndex = "-1";
+      c.options.selectedIndex =  len;
       const choice = d.options[d.selectedIndex].value;
       colorFlag = false;
 
@@ -96,7 +98,7 @@
         }
 
         else {
-          selectTheme();
+        colorFlag = true;
         }
 
       hideColor(colorFlag);
