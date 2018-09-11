@@ -154,7 +154,7 @@
     				result = "It's a Tie!";
 
   			}
-        alert("value:" + result);
+        //alert("value:" + result);
  // If we have a winner or the game is a Tie then end the game
         if( result != "") {
         		endGame(result);
