@@ -1,0 +1,20 @@
+{
+  "name": "scapper",
+  "version": "1.0.0",
+  "description": "To scrape shirt information and store it into a CSV file",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scrape",
+    "csv"
+  ],
+  "author": "joseph",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "json-2-csv": "^2.4.0",
+    "request": "^2.88.0"
+  }
+}
