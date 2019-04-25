@@ -18,7 +18,7 @@ CSS
 ## Changes on the files
 1. Background changes on the layout.pug
 2. Font Changes
-3. Backgroung color on the project.pug
+3. Background color on the project.pug
 4. Handled the error for page not found with color and font changes on the error.pug
 5. Error output as required
 6. Links to live project etc
