@@ -3,8 +3,8 @@
       {
          "id":"0",
          "project_name":"Random Quote Generator",
-         "description":"",
-         "technologies":"",
+         "description":"Project I",
+         "technologies":["Javascsript", "HTML" , "CSS"],
          "live_link":"https://hub4jose.github.io/JavaScriptFullStack/Project%20I/index.html",
          "github_link":"https://github.com/hub4jose/JavaScriptFullStack/tree/master/Project%20I",
          "image_urls":[
@@ -14,8 +14,8 @@
       {
          "id":"1",
          "project_name":"Pagination and Content Filter",
-         "description":"",
-         "technologies":"",
+         "description":"Project II",
+         "technologies":["Javascsript", "HTML" , "CSS"],
          "live_link":"https://hub4jose.github.io/JavaScriptFullStack/Project%20II/index.html",
          "github_link":"https://github.com/hub4jose/JavaScriptFullStack/tree/master/Project%20II",
          "image_urls":[
@@ -25,8 +25,8 @@
       {
          "id":"2",
          "project_name":"Interactive Form",
-         "description":"",
-         "technologies":"",
+         "description":"Project III",
+         "technologies":["Javascsript", "HTML" , "CSS"],
          "live_link":"https://hub4jose.github.io/JavaScriptFullStack/Project%20III/index.html",
          "github_link":"https://hub4jose.github.io/JavaScriptFullStack/Project%20III/index.html",
          "image_urls":[
@@ -36,8 +36,8 @@
       {
          "id":"3",
          "project_name":"Tic Tac Toe",
-         "description":"",
-         "technologies":"",
+         "description":"Project IV",
+         "technologies":["Javascsript", "HTML" , "CSS"],
          "live_link":"https://hub4jose.github.io/JavaScriptFullStack/Project%20IV/index.html",
          "github_link":"https://github.com/hub4jose/JavaScriptFullStack/tree/master/Project%20IV",
          "image_urls":[
@@ -47,8 +47,8 @@
       {
          "id":"4",
          "project_name":"Public API for Employee Directory",
-         "description":"",
-         "technologies":"",
+         "description":"Project V",
+         "technologies":["Javascsript", "HTML" , "CSS" ,"Express" , "Node Js"],
          "live_link":"https://hub4jose.github.io/JavaScriptFullStack/Project%20V/index.html",
          "github_link":"https://github.com/hub4jose/JavaScriptFullStack/tree/master/Project%20V",
          "image_urls":[
