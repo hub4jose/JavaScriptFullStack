@@ -1,0 +1,59 @@
+{
+   "projects":[
+      {
+         "id":"0",
+         "project_name":"Random Quote Generator",
+         "description":"",
+         "technologies":"",
+         "live_link":"https://hub4jose.github.io/JavaScriptFullStack/Project%20I/index.html",
+         "github_link":"https://github.com/hub4jose/JavaScriptFullStack/tree/master/Project%20I",
+         "image_urls":[
+                      "/images/proj1-1.png", "/images/proj1-2.png"
+         ]
+      },
+      {
+         "id":"1",
+         "project_name":"Pagination and Content Filter",
+         "description":"",
+         "technologies":"",
+         "live_link":"https://hub4jose.github.io/JavaScriptFullStack/Project%20II/index.html",
+         "github_link":"https://github.com/hub4jose/JavaScriptFullStack/tree/master/Project%20II",
+         "image_urls":[
+                      "/images/proj2-1.png", "/images/proj2-2.png"
+                     ]
+      },
+      {
+         "id":"2",
+         "project_name":"Interactive Form",
+         "description":"",
+         "technologies":"",
+         "live_link":"https://hub4jose.github.io/JavaScriptFullStack/Project%20III/index.html",
+         "github_link":"https://hub4jose.github.io/JavaScriptFullStack/Project%20III/index.html",
+         "image_urls":[
+                      "/images/proj3-1.png", "/images/proj3-2.png"
+         ]
+      },
+      {
+         "id":"3",
+         "project_name":"Tic Tac Toe",
+         "description":"",
+         "technologies":"",
+         "live_link":"https://hub4jose.github.io/JavaScriptFullStack/Project%20IV/index.html",
+         "github_link":"https://github.com/hub4jose/JavaScriptFullStack/tree/master/Project%20IV",
+         "image_urls":[
+                      "/images/proj4-1.png", "/images/proj4-2.png", "/images/proj4-3.png"
+         ]
+      },
+      {
+         "id":"4",
+         "project_name":"Public API for Employee Directory",
+         "description":"",
+         "technologies":"",
+         "live_link":"https://hub4jose.github.io/JavaScriptFullStack/Project%20V/index.html",
+         "github_link":"https://github.com/hub4jose/JavaScriptFullStack/tree/master/Project%20V",
+         "image_urls":[
+                      "/images/proj5-1.png", "/images/proj5-2.png"
+         ]
+      }
+   ]
+}
